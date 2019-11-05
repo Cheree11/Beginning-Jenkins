@@ -8,7 +8,7 @@ node {
     dir('Lesson5/ActivityA') {
         stage('Install Requirements') {
             sh 'apk add make'
-            sh 'pip install make'
+            sh 'apt-get install make'
             sh 'make install'
         }
 
